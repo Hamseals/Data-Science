@@ -94,7 +94,8 @@ To figure out if SHAP and LIME actually explain what the models are doing (and n
 
 ## 5. Experimental Setup
 
-We trained two popular tree-based models — **Random Forest** and **XGBoost** — across three datasets, each representing a distinct domain.  
+We trained two popular tree-based models — **Random Forest** and **XGBoost** — across two datasets, each representing a distinct domain.  
+Furthermore we trained Random Forest and Light Bert on textual Data on the job descriptions.
 The goal: apply SHAP and LIME, then evaluate how “explainable” their explanations really are.
 
 - **Random Forest** served as our baseline: it’s widely used, interpretable, and relatively stable — a good benchmark for comparing explanation quality.
